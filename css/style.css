@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    border-top: 7px solid #06833e;
+}
+
+header nav {
+    display: flex;
+    margin: 0px 53px;
+}
+
+header nav ul {
+    height: 91px;
+    background: #ffffff;
+}
+
+header nav ul li {
+    display: inline-table;
+    line-height: 91px;
+    padding: 0px 35px;
+}
+
+header nav ul li a {
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+
+}
+
+header nav ul li a:focus {
+    color: #8fc8a2;
+}
+
+header nav ul li a:hover {
+    color: #0BE11A;
+
+}
+
+.logo {
+    margin-top: 20px;
+    width: 108px;
+    padding-left: 7px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.banner {
+    background-image: url("../images/bannerne.png");
+    width: 100%;
+    height: 317px;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    background-size: contain;
+    top: 100px;
+    
+}
+
+.banner-sub {
+    display: flex;
+    padding: 93px;
+    text-align: center;
+    padding-left: 60%;
+}
+
+.thubnail {
+    padding: 5px 5px;
+    border: 1px solid #fff;
+    width: 100px;
+    margin: 0px 30px;
+    border-radius: 5%;
+}
+
+.thubnail img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+@media(min-width: 360px) and (max-width: 640px) {
+    header {
+        width: 100%;
+    }
+    header nav ul {
+        display: none;
+    }
+    header nav .logo {
+        margin: 10px 30px;
+    }
+    .banner {
+        width: 100%;
+        top: 150px;
+    }
+}
