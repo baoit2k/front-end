@@ -43,7 +43,7 @@ header nav ul li a:hover {
 .logo {
     margin-top: 20px;
     width: 108px;
-    padding-left: 7px;
+    padding-left: 0px;
 }
 
 .logo img {
@@ -97,3 +97,69 @@ header nav ul li a:hover {
         top: 150px;
     }
 }
+section  {
+    margin-top: 270px;
+}
+.main {
+        margin: 10px 10%;
+    display: flex;
+    
+}
+.main .new {
+    width: 245px;
+}
+.main ul li img  {
+    float: left;
+    padding-right: 15px;
+}
+.main ul {
+    background: #eaf6f0;
+        width: 100%;
+
+}
+.main h2 {
+    background: green;
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    padding: 0px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main ul li {
+    list-style: none;
+    padding: 5px 5px 5%;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+.main ul li h3 {
+    font-size: 14px;
+    display: inline;
+}
+.main .new p {
+    background: url('../images/arrow-right.png') #eaf6f0 0;
+    background-repeat: no-repeat;
+    width: 83.5%;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    
+}
+.sp h3{
+    margin: 45px 70px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    
+}
+.sp {
+    width: 50%;
+}
+
+    
+
